@@ -1,0 +1,126 @@
+* {
+    /* background: url(/images/bg.webp); */
+    background: black;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header {
+    display: inline;
+    
+}
+
+.author {
+    color: #00ffff;
+    padding-top: 10px;
+    margin-left: 10px;
+    font-style: italic;
+
+}
+
+.logo {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: auto;
+}
+
+main {
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 180px;
+
+}
+
+.text-area {
+    height: 400px;
+    background: #000000;
+    border: none;
+    color: #ffffff;
+    margin: 30px;
+    box-shadow: 0 0 4px #ff69b4, 0 0 6px #ff69b4, 0 0 8px #ff69b4, 0 0 10px #ff69b4;
+    padding: 2px;
+    text-transform: lowercase;
+    border-radius: 24px;
+
+}
+
+::placeholder {
+    color: #0A3871;
+}
+
+.text-area:focus {
+    outline: none;
+}
+
+.mensaje {
+    height: 400px;
+    background: white;
+    background-image: url("/images/gear2.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    box-shadow: 0 0 4px #ff69b4, 0 0 6px #ff69b4, 0 0 8px #ff69b4, 0 0 10px #ff69b4;
+    color: #0A3871;
+    margin: 30px;
+    padding: 2px;
+    position: fixed;
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin: 5px;
+    padding: 10px;
+}
+
+.btn-desencriptar {
+    border: none;
+    border-radius: 24px;
+    color: #ffffff;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+    box-shadow: 0 0 4px #ff0000, 0 0 6px #ff0000, 0 0 8px #ff0000, 0 0 10px #ff0000;
+}
+
+.btn-encriptar {
+    border: none;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+    box-shadow: 0 0 4px #ff0000, 0 0 6px #ff0000, 0 0 8px #ff0000, 0 0 10px #ff0000;
+}
+
+.copiar {
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 120px;
+    margin-top: 565px;
+    position: absolute;
+    width: 336px;
+    box-shadow: 0 0 4px #00ffff, 0 0 6px #00ffff, 0 0 8px #00ffff, 0 0 10px #00ffff;
+}
+
+.informacion {
+    padding: 10px;
+    margin: 12px;
+    color: #495057;
+    font-size: 18px;
+    box-shadow: 0 0 4px #ff69b4, 0 0 6px #ff69b4, 0 0 8px #ff69b4, 0 0 10px #ff69b4;
+}
